@@ -20,7 +20,6 @@
     --color-grey-6: #12181b;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-    --transition-1: all .4s ease-in-out;
 }
 
 body{
@@ -51,6 +50,7 @@ section{
     left:0%;
     top: 0%;
     padding: 3rem 18rem;
+    flex: auto;
 }
 
 .section{
@@ -67,21 +67,29 @@ section{
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: darkslategray;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color:rgba(155, 216, 93, 0.3);
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(43, 39, 1);
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(133, 133, 136);
+}
+
+.active{
+    display: block;
 }
 
 // controls 
@@ -106,8 +114,8 @@ section{
         padding: 2rem;
         cursor: pointer;
         background-color: var(--color-grey-4);
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
