@@ -20,9 +20,9 @@ function PageTransitions(){
         if(id){
             // Remove selected from the other Btns
             sectBtns.forEach((sectBtn)=>{
-                sectBtn.classList.remove('active');
+                sectBtn.classList.remove('active-btn');
             })
-            e.target.classList.add('active');
+            //e.target.classList.add('active');
 
             // Hide other sections
             sections.forEach((section)=>{
