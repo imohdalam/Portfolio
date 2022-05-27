@@ -483,4 +483,104 @@ section {
   color: var(--color-grey-2);
   line-height: 2rem;
 }
+
+.about-stats {
+  padding-bottom: 4rem;
+}
+
+.about-stats hr {
+  background-color: var(--color-secondary);
+  size: 2rem;
+}
+
+.about-stats .stat-title {
+  color: var(--color-white);
+  font-weight: 800;
+  font-size: 35px;
+  padding: 3.5rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.about-stats .progress-bars {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+}
+
+.about-stats .progress-bars .progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-stats .progress-bars .progress-bar .progress-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress-text {
+  color: var(--color-secondary);
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress {
+  width: 100%;
+  height: .45rem;
+  background-color: var(--color-grey-4);
+  margin-left: 1rem;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--color-secondary);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 60%;
+  border-radius: 1rem;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress .html {
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress .JS {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress .java {
+  width: 75%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress .css {
+  width: 95%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress .python {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-content .progress .php {
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */
