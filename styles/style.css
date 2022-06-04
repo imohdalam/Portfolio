@@ -488,11 +488,6 @@ section {
   padding-bottom: 4rem;
 }
 
-.about-stats hr {
-  background-color: var(--color-secondary);
-  size: 2rem;
-}
-
 .about-stats .stat-title {
   color: var(--color-white);
   font-weight: 800;
