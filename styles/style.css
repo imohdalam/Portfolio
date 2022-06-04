@@ -216,7 +216,7 @@ section {
 .header-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   height: 100%;
 }
@@ -397,7 +397,7 @@ section {
 .about-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 4rem;
@@ -406,7 +406,7 @@ section {
 .about-container .right-about {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
@@ -500,7 +500,7 @@ section {
 .about-stats .progress-bars {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[1];
       grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
 }
@@ -582,7 +582,7 @@ section {
 .timeline {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[1];
       grid-template-columns: repeat(1, 1fr);
   padding-bottom: 4rem;
 }
@@ -591,6 +591,7 @@ section {
   position: relative;
   padding-left: 3rem;
   border-left: 1px solid var(--color-grey-5);
+  padding-bottom: 1rem;
 }
 
 .timeline .timeline-item .timeline-icon {
@@ -618,7 +619,8 @@ section {
 
 .timeline .timeline-item .timeline-duration {
   padding: 0.3rem 0.8rem;
-  background-color: var(--color-grey-5);
+  background-color: var(--color-grey-1);
+  color: #000;
   border-radius: 15px;
   display: inline-block;
   font-size: 0.8rem;
@@ -639,5 +641,6 @@ section {
 
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+  padding-bottom: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
