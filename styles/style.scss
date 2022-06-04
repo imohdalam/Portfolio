@@ -435,8 +435,7 @@ section{
 
 .timeline{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
     padding-bottom: 4rem;
     .timeline-item{
         position: relative;

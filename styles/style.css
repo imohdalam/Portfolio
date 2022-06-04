@@ -216,7 +216,7 @@ section {
 .header-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   height: 100%;
 }
@@ -397,7 +397,7 @@ section {
 .about-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 4rem;
@@ -406,7 +406,7 @@ section {
 .about-container .right-about {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
@@ -500,7 +500,7 @@ section {
 .about-stats .progress-bars {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
 }
@@ -582,9 +582,8 @@ section {
 .timeline {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  -ms-grid-columns: (1fr);
+      grid-template-columns: repeat(1, 1fr);
   padding-bottom: 4rem;
 }
 
